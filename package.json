@@ -1,0 +1,37 @@
+{
+  "name": "incidente-desacato-colombia",
+  "version": "1.0.0",
+  "description": "Skill jurídico para redactar, estructurar y optimizar incidentes de desacato en procesos de tutela en Colombia",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"require('./index.js'); console.log('✅ Skill module loaded successfully')\"",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "derecho",
+    "colombia",
+    "tutela",
+    "desacato",
+    "incidente",
+    "jurídico",
+    "skill"
+  ],
+  "author": "Diego Fernando García Bermeo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfgarcia2908/incidente-desacato-colombia-1.git"
+  },
+  "homepage": "https://incidente-desacato-colombia.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "skills/",
+    "LICENSE",
+    "README.md"
+  ]
+}
