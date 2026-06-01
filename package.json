@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node index.js",
-    "test": "node -e \"require('./index.js'); console.log('✅ Skill module loaded successfully')\"",
+    "test": "node test/index.test.js",
     "lint": "echo 'No linter configured yet'"
   },
   "keywords": [
